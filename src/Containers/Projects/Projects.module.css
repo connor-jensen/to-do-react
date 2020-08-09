@@ -1,0 +1,10 @@
+.Projects {
+   padding-left: 18px;
+   padding-top: 5px;
+   background-color: #fafafa;
+   border-color: #DE8578 #ebebeb;
+   border-style: solid solid none none;
+   border-width: 1px;
+   display: flex;
+   flex-direction: column;
+}

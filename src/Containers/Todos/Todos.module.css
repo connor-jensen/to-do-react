@@ -1,0 +1,14 @@
+.Todos {
+   padding: 40px 40px;
+   border-color: #DE8578;
+   border-style: solid none none none;
+   border-width: 1px;
+   display: flex;
+   flex-direction: column;
+}
+
+.Heading {
+   height: 40px;
+   font-weight: bold;
+   font-size: 20px;
+}

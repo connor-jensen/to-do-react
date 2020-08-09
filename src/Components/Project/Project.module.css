@@ -1,0 +1,35 @@
+.Project {
+   display: flex;
+   flex-direction: row;
+   height: 37px;
+   align-items: center;
+   order: 1;
+}
+
+.pTitle {
+   padding-left: 10px;
+   height: 34px;
+   display: flex;
+   align-items: center;
+}
+
+.todoQuantity {
+   display: flex;
+   padding-top: 4px;
+   padding-left: 6px;
+   font-size: 12px;
+   font-weight: lighter;
+   color: #949494;
+}
+
+.Dot {
+   height: 10px;
+   width: 10px;
+   background-color: #FFCC00;
+   border-radius: 50%;
+   display: inline-block;
+}
+
+.Project:hover, .addProject:hover {
+   background-color: #f6f6f6;
+}

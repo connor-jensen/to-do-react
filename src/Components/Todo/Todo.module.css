@@ -1,0 +1,54 @@
+.Todo {
+   display: flex;
+   flex-direction: row;
+   height: 37px;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.TodoLeft, .TodoRight {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+.Todo:hover, .AddTodo:hover {
+   background-color: #fbfbfb;
+}
+
+.Dot {
+   height: 10px;
+   width: 10px;
+   background-color: #FFCC00;
+   border-radius: 50%;
+   display: inline-block;
+}
+
+.TodoDot {
+   height: 15px;
+   width: 15px;
+   background-color: #FCF0ED;
+   border-color: #E25845;
+   border-style: solid;
+   border-width: 1.5px;
+   border-radius: 50%;
+   display: inline-block;
+}
+
+
+.pTitle {
+   padding-left: 10px;
+   height: 34px;
+   display: flex;
+   align-items: center;
+}
+
+.pType {
+   padding-right: 7px;
+}
+
+.lighter, ::placeholder {
+   color:#949494;
+   font-weight: 100;
+   opacity: 1;
+}
